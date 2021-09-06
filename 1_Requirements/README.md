@@ -10,10 +10,10 @@ The main aim of the project is to develop software for online movie ticket booki
 
 ## Features
 
-*  The movie ticket booking system is basically made for providing the users an anytime and anywhere service for booking movie tickets. For this, the user has to select a movie      name, enter customer details such as name and phone number. Then the user has to enter seat number. After this, the booking is done. The user can also change the ticket price      and view reservations by entering the admin password.
-*  Admin can use Movie Ticket Booking System Project to edit price and view reservations of tickets.
-*  The last feature of this project is about canceling the tickets which can be done by entering the booking id.
-*  This system is basically aimed to provide complete information of the movie and schedule to the customer, according to which he can book the tickets.
+*    The movie ticket booking system is basically made for providing the users an anytime and anywhere service for booking movie tickets. For this, the user has to select a movie      name, enter customer details such as name and phone number. Then the user has to enter seat number. After this, the booking is done. The user can also change the ticket price      and view reservations by entering the admin password.
+*    Admin can use Movie Ticket Booking System Project to edit price and view reservations of tickets.
+*    The last feature of this project is about canceling the tickets which can be done by entering the booking id.
+*    This system is basically aimed to provide complete information of the movie and schedule to the customer, according to which he can book the tickets.
 
 ## Benifits
 
@@ -25,7 +25,7 @@ The main aim of the project is to develop software for online movie ticket booki
 ## Defining our System
 
 For Admin
-*  To edit the price of ticket
+*    To edit the price of ticket
 *   To view the reserved ticket
 
 For User
@@ -67,7 +67,7 @@ High Level Requirements
 Low Level Requirements
 
 | ID  | Description |HLR ID | Status (Implemented/Feature) |
-|:--: | :----:      |:----: | :----:
+| :--: | :----: |:----: | :----:
 | LR01 | User shall be able to  login using given credentials | HR01 |Implemented |               
 | LR02 | User has to select a movie name, enter name and phone number. Then the user has to enter seat number. | HR02 | Implemented |
 | LR03 | User can view reserved ticket with movie name, seat number | HR03 | Implemented |
