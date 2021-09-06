@@ -1,4 +1,4 @@
-# Stepin_Movie_Ticket_Booking_System
+## Stepin_Movie_Ticket_Booking_System
 
 # Introduction:
 
@@ -6,7 +6,7 @@ The main aim of the project is to develop software for online movie ticket booki
 
 # Research:
 
-Movie Ticket Booking System Features and Benefits:
+*  Movie Ticket Booking System Features and Benefits:
 
 # Features:
 
@@ -17,7 +17,7 @@ Movie Ticket Booking System Features and Benefits:
 
 # Benifits:
 
-*  This project saves lots of time and reduces the work of users.
+*   This project saves lots of time and reduces the work of users.
 *  In this system booking the movie ticket can be done anywhere and at anytime.
 *  After selecting the movie, the user is presented a seating layout so that he can select seats of his choice.
 *  Provides flexibility, user friendly and better performance.
@@ -30,7 +30,7 @@ For Admin
 
 For User
 *  To purchase the ticket
-*  To cancel the ticket
+*   To cancel the ticket
 
 # SWOT Analysis:
 ![image](https://user-images.githubusercontent.com/89603034/132201873-5321491f-00d4-49f4-8e19-04d52dc30bcd.png)
