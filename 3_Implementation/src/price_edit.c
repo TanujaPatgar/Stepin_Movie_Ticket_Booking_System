@@ -6,7 +6,7 @@ int change_prize(int price)
 {
 	char pass[10],pas[10]="pass";
 	printf("Enter the password to change price of ticket: ");
-	scanf("%s",pass);
+	scanf("%4s",pass);
 	if (strcmp(pass,pas)==0)
 	{
 		printf("Please enter new price: ");
