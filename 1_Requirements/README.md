@@ -72,7 +72,7 @@ Low Level Requirements
 | LR02 | User has to select a movie name, enter name and phone number. Then the user has to enter seat number. | HR02 | Implemented |
 | LR03 | User can view reserved ticket with movie name, seat number | HR03 | Implemented |
 | LR04 | User can add movie id number to cancel the tickets | HR04 | Implemented |
-| LR05 | Admin can change movie ticket price using login credentials | HR05 | Implemented |
+| LR05 | Admin can change movie ticket price using login credentials | HR05 | Implemented 
 
 
 
