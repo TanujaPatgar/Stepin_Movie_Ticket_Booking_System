@@ -11,9 +11,9 @@ The main aim of the project is to develop software for online movie ticket booki
 ## Features
 
 *  The movie ticket booking system is basically made for providing the users an anytime and anywhere service for booking movie tickets. For this, the user has to select a movie      name, enter customer details such as name and phone number. Then the user has to enter seat number. After this, the booking is done. The user can also change the ticket price      and view reservations by entering the admin password.
-* Admin can use Movie Ticket Booking System Project to edit price and view reservations of tickets.
-* The last feature of this project is about canceling the tickets which can be done by entering the booking id.
-* This system is basically aimed to provide complete information of the movie and schedule to the customer, according to which he can book the tickets.
+*  Admin can use Movie Ticket Booking System Project to edit price and view reservations of tickets.
+*  The last feature of this project is about canceling the tickets which can be done by entering the booking id.
+*  This system is basically aimed to provide complete information of the movie and schedule to the customer, according to which he can book the tickets.
 
 ## Benifits
 
@@ -25,10 +25,12 @@ The main aim of the project is to develop software for online movie ticket booki
 ## Defining our System
 
 For Admin
+
 *    To edit the price of ticket
 *   To view the reserved ticket
 
 For User
+
 *   To purchase the ticket
 *   To cancel the ticket
 
@@ -38,18 +40,23 @@ For User
 ## 4W's and 1H
 
 ### Who:
+
 *  Theatre 
 
 ### What:
+
 *  As booking of movie tickets are increasing day by day the mannual management of such system becomes tedious.
 
 ### When:
+
 *  When user wants to carry out the tasks quickly and this reduces lots of mannual work. 
 
 ### Where:
+
 *  This issue can be seen in all the parts of theatre where there is a lot of booking,cancellation and many more actions happening in all the time.
 
 ### How:
+
 *  The mannually booking, cancelling the tickes and other actions will be take more time and system needs more workers for these actions.
 
 ## Detail Requirements
