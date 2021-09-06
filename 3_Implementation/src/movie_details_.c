@@ -10,7 +10,7 @@ void details(void)
 	//int count=0;
 	char pass[10],pas[10]="pass";
 	printf("Enter the password to see details: ");
-	scanf("%s",pass);
+	scanf("%4s",pass);
 	if (strcmp(pass,pas)==0)
 	{
 		for (i=0;i<count;i++)
