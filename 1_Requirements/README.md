@@ -41,23 +41,23 @@ For User
 
 ### Who
 
-* Theatre 
+Theatre 
 
 ### What
 
-*  As booking of movie tickets are increasing day by day the mannual management of such system becomes tedious.
+As booking of movie tickets are increasing day by day the mannual management of such system becomes tedious.
 
 ### When
 
-*  When user wants to carry out the tasks quickly and this reduces lots of mannual work. 
+When user wants to carry out the tasks quickly and this reduces lots of mannual work. 
 
 ### Where
 
-*  This issue can be seen in all the parts of theatre where there is a lot of booking,cancellation and many more actions happening in all the time.
+This issue can be seen in all the parts of theatre where there is a lot of booking,cancellation and many more actions happening in all the time.
 
 ### How
 
-*  The mannually booking, cancelling the tickes and other actions will be take more time and system needs more workers for these actions.
+The mannually booking, cancelling the tickes and other actions will be take more time and system needs more workers for these actions.
 
 ## Detail Requirements
 
