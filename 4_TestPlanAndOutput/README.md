@@ -11,7 +11,7 @@ Table 1: High level test plan
 | HR05   | Admin shall be able to change price of tickets | Select change price ticket option, enter password and change price of tickets | Successfully change price of tickets | Successfully change price of tickets | Scenario based |
 
 
-Table 2: Low level test plan
+Table 2:Low level test plan
 
 | Test ID | Description | EXP I/P | EXP O/P | Actual out| Type of Test|
 | :-----: | :---------: | :-----: | :-----: | :-------: | :---------:
