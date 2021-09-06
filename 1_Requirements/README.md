@@ -6,7 +6,7 @@ The main aim of the project is to develop software for online movie ticket booki
 
 ## Research
 
-*  Movie Ticket Booking System Features and Benefits:
+*   Movie Ticket Booking System Features and Benefits:
 
 ## Features
 
