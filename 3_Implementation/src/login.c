@@ -37,12 +37,12 @@ void login()
 		else{
 			printf("\n\n Login Unsuccessful....Please Try Again....");
 			a++;
-			getchar();
+			//getchar();
 		}	
 	} while (a<=2);
 	if(a>2){
 	printf("\n Sorry you have entered the wrong username and password for four times !!!");
-	getchar();
+	//getchar();
 	}
 	//system("cls");
 }
