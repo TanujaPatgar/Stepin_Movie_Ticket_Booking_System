@@ -6,6 +6,5 @@ The main aim of the project is to develop software for online movie ticket booki
 
 ## SDLC Activity Based Learning
 
-| Code Inspector | Codacy |
-| ![CodeQuality_Grade](https://www.code-inspector.com/project/27637/status/svg) |
-| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a5c1741b8da1425daf255b889f4c1ca3)](https://www.codacy.com/gh/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TanujaPatgar/Stepin_Movie_Ticket_Booking_System&amp;utm_campaign=Badge_Grade) |
+![CodeQuality_Grade](https://www.code-inspector.com/project/27637/status/svg) 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a5c1741b8da1425daf255b889f4c1ca3)](https://www.codacy.com/gh/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TanujaPatgar/Stepin_Movie_Ticket_Booking_System&amp;utm_campaign=Badge_Grade) 
