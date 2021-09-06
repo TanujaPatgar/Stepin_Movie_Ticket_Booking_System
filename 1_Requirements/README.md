@@ -33,7 +33,7 @@ For User
 * To cancel the ticket
 
 SWOT Analysis:
-1_Requirements/swot.png
+![image](https://user-images.githubusercontent.com/89603034/132201873-5321491f-00d4-49f4-8e19-04d52dc30bcd.png)
 
 4W's and 1H:
 
