@@ -31,7 +31,7 @@ void login()
 		{
 			printf("\n\n Welcome User!!!");
 			printf("\n\n Press any key to continue...");
-			getchar();
+			//getchar();
 			break;
 		}
 		else{
