@@ -6,10 +6,10 @@ void details(void)
 {
 	int i;
 	int count=0;
-	char pass[10],pak[10]="pass";
+	char pass[10],pas[10]="pass";
 	printf("Enter the password to see details: ");
 	scanf("%s",&pass);
-	if (strcmp(pass,pak)==0)
+	if (strcmp(pass,pas)==0)
 	{
 		for (i=0;i<count;i++)
 		{

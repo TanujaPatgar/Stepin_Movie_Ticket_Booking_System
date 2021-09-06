@@ -1,6 +1,6 @@
 #include "declaration.h"
 //#include "movie_details.c"
-int cmovie(void)
+int c_movie(void)
 {
 	int i;
 	printf("\t\t\twhich movie ticket you want to cancel\n");

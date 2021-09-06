@@ -14,7 +14,7 @@
 
 void login()
 {
-	int a=0,i=0;
+	int a=0;
 	char username[10];
 	char userpwd[10];
 	char user[10]="tanuja";

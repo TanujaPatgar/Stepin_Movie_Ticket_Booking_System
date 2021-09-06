@@ -9,15 +9,15 @@ int count=0;
 int main()
 {
     login();
-	int **seat,choice,price=500,slection,i;
+	int **seat,ch,price=500,slection,i;
 	seat=(int **)calloc(101,sizeof(int *));
 	for (i=0;i<3;i++)
 		*(seat+i)=(int *)calloc(101,sizeof(int ));
-	int x;
+	int x=0;
 	while(x!=5)
 	{
-		choice=choice1();
-		switch(choice)
+		ch=choice1();
+		switch(ch)
 		{
 			case 1:
 				price=change_prize(price);
