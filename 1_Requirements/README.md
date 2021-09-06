@@ -33,7 +33,7 @@ For User
 * To cancel the ticket
 
 SWOT Analysis:
-
+1_Requirements/swot.png
 
 4W's and 1H:
 
