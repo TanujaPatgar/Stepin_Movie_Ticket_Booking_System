@@ -26,7 +26,7 @@ Movie Ticket Booking System Features and Benefits:
 
 For Admin
 
-*    To edit the price of ticket
+*   To edit the price of ticket
 *   To view the reserved ticket
 
 For User
