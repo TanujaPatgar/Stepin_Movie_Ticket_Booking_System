@@ -37,25 +37,24 @@ For User
 
 ## 4W's and 1H
 
-Who:
-Theatre 
+### Who:
+*  Theatre 
 
-What:
-As booking of movie tickets are increasing day by day the mannual management of such system becomes tedious.
+### What:
+*  As booking of movie tickets are increasing day by day the mannual management of such system becomes tedious.
 
-When:
-When user wants to carry out the tasks quickly and this reduces lots of mannual work. 
+### When:
+*  When user wants to carry out the tasks quickly and this reduces lots of mannual work. 
 
-Where:
-This issue can be seen in all the parts of theatre where there is a lot of booking,cancellation and many more actions happening in all the time.
+### Where:
+*  This issue can be seen in all the parts of theatre where there is a lot of booking,cancellation and many more actions happening in all the time.
 
-How:
-The mannually booking, cancelling the tickes and other actions will be take more time and system needs more workers for these actions.
+### How:
+*  The mannually booking, cancelling the tickes and other actions will be take more time and system needs more workers for these actions.
 
 ## Detail Requirements
 
 High Level Requirements
-
 | ID    | Description                                    |Category   | Status      |
 :----:  | :----:                                         |:----:     | :----:
 | HR01  | User Shall be able to login                    | Technical | Implemented |
@@ -65,7 +64,6 @@ High Level Requirements
 | HR05  | Admin shall be able to change price of tickets | Technical | Implemented | 
 
 Low Level Requirements
-
 | ID  | Description |HLR ID | Status (Implemented/Feature) |
 | :--: | :----: |:----: | :----:
 | LR01 | User shall be able to  login using given credentials | HR01 |Implemented |               
