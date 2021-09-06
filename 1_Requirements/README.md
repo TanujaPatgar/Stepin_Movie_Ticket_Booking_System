@@ -1,28 +1,28 @@
 # Stepin_Movie_Ticket_Booking_System
 
-Introduction:
+# Introduction:
 
 The main aim of the project is to develop software for online movie ticket booking system. This project has been developed to carry out process easily and quickly.The simple Movie Ticket Booking System is based on the concept of booking movie tickets. 
 
-Research:
+# Research:
 
 Movie Ticket Booking System Features and Benefits:
 
-Features:
+# Features:
 
-*  The movie ticket booking system is basically made for providing the users an anytime and anywhere service for booking movie tickets. For this, the user has to select a movie name, enter customer details such as name and phone number. Then the user has to enter seat number. After this, the booking is done. The user can also change the ticket price and view reservations by entering the admin password.
+*  The movie ticket booking system is basically made for providing the users an anytime and anywhere service for booking movie tickets. For this, the user has to select a movie      name, enter customer details such as name and phone number. Then the user has to enter seat number. After this, the booking is done. The user can also change the ticket price      and view reservations by entering the admin password.
 *  Admin can use Movie Ticket Booking System Project to edit price and view reservations of tickets.
 *  The last feature of this project is about canceling the tickets which can be done by entering the booking id.
 *  This system is basically aimed to provide complete information of the movie and schedule to the customer, according to which he can book the tickets.
 
-Benifits:
+# Benifits:
 
 *  This project saves lots of time and reduces the work of users.
 *  In this system booking the movie ticket can be done anywhere and at anytime.
 *  After selecting the movie, the user is presented a seating layout so that he can select seats of his choice.
 *  Provides flexibility, user friendly and better performance.
 
-Defining our System:
+# Defining our System:
 
 For Admin
 *  To edit the price of ticket
@@ -32,10 +32,10 @@ For User
 *  To purchase the ticket
 *  To cancel the ticket
 
-SWOT Analysis:
+# SWOT Analysis:
 ![image](https://user-images.githubusercontent.com/89603034/132201873-5321491f-00d4-49f4-8e19-04d52dc30bcd.png)
 
-4W's and 1H:
+# 4W's and 1H:
 
 Who:
 Theatre 
