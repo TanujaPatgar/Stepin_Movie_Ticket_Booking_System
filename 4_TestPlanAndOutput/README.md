@@ -1,7 +1,7 @@
 TEST PLAN:
 
-Table 1
-High level test plan 
+Table 1. High level test plan 
+
 
 | Test ID | Description | EXP I/P | EXP O/P | Actual out | Type of Test |
 | :-----: | :---------: | :-----: | :-----: | :-------:  | :---------:
@@ -11,9 +11,8 @@ High level test plan
 | HR04   | User shall be able to cancel tickets | Select cancel ticket option and enter movie id number | Successfully cancelled ticket |   Successfully cancelled ticket | Scenario based |
 | HR05   | Admin shall be able to change price of tickets | Select change price ticket option, enter password and change price of tickets | Successfully change price of tickets | Successfully change price of tickets | Scenario based |
 
+Table 2. Low level test plan
 
-Table 2
-Low level test plan
 
 | Test ID | Description | EXP I/P | EXP O/P | Actual out| Type of Test|
 | :-----: | :---------: | :-----: | :-----: | :-------: | :---------:
