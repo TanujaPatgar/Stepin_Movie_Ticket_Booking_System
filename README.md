@@ -12,3 +12,4 @@ Features:
 * This system is basically aimed to provide complete information of the movie and schedule to the customer, according to which he can book the tickets.
 
 SDLC Activity Based Learning
+[![Code Grade] (https://www.code-inspector.com/project/27637/status/svg)]
