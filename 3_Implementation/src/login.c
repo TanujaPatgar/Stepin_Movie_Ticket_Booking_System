@@ -21,12 +21,12 @@ void login()
 	char pass[10]="123";
 	do
 	{
-		system("cls");
+		//system("cls");
 		printf("\t MOVIE TICKET BOOKING SYSTEM");
 		printf("\t Enter Username: ");
-		scanf("%s",&username);
+		scanf("%s",username);
 		printf("\t Enter Password: ");
-		scanf("%s",&userpwd);
+		scanf("%s",userpwd);
 		if(strcmp(username,user)==0 && strcmp(userpwd,pass)==0)
 		{
 			printf("\n\n Welcome User!!!");
@@ -44,5 +44,5 @@ void login()
 	printf("\n Sorry you have entered the wrong username and password for four times !!!");
 	getchar();
 	}
-	system("cls");
+	//system("cls");
 }

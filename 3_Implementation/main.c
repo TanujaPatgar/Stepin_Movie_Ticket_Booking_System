@@ -9,13 +9,14 @@ int count=0;
 int main()
 {
     login();
-	int **seat,ch,price=500,slection,i;
+	int **seat,price=500,slection,i;
 	seat=(int **)calloc(101,sizeof(int *));
 	for (i=0;i<3;i++)
 		*(seat+i)=(int *)calloc(101,sizeof(int ));
 	int x=0;
 	while(x!=5)
-	{
+	{   
+		int ch;
 		ch=choice1();
 		switch(ch)
 		{

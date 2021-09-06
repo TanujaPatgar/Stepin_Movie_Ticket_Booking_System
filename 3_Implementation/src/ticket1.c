@@ -10,7 +10,7 @@ void ticket1(int choice,char name[10],int id2,int price)
 {
     
         int count=0;
-		system("cls");
+		//system("cls");
 		printf("\n\n");
         printf("\t-----------------------THEATER BOOKING TICKET-------------------------\n");
         printf("\t**********************************************************************\n");

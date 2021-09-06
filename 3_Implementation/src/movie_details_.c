@@ -2,13 +2,15 @@
 #include "movie_details.c"
 
 struct movie_details person[300];
+int i;
+int count=0;
 void details(void)
 {
-	int i;
-	int count=0;
+	//int i;
+	//int count=0;
 	char pass[10],pas[10]="pass";
 	printf("Enter the password to see details: ");
-	scanf("%s",&pass);
+	scanf("%s",pass);
 	if (strcmp(pass,pas)==0)
 	{
 		for (i=0;i<count;i++)
@@ -18,7 +20,7 @@ void details(void)
 	}
 	else                                                 
 		printf("Entered password is wrong \n");
-		system("PAUSE");
-		system("CLS");
+		//system("PAUSE");
+		//system("CLS");
 	
 } 
