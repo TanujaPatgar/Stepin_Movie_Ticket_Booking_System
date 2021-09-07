@@ -1,7 +1,7 @@
 
 #include "stdio.h"
 #include "stdlib.h"
-#include "movie_details.c"
+//#include "movie_details.c"
 #include "declaration.h" 
 #include "string.h"
 
@@ -32,7 +32,7 @@ int main()
 				count++;
 				break;
 			case 4:
-				slection=cmovie();	
+				slection=c_movie();	
 				cancel_ticket(seat[slection-1]);	
 				break;
 			case 5:
