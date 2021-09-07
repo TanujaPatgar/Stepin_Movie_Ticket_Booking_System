@@ -11,3 +11,5 @@ The main aim of the project is to develop software for online movie ticket booki
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a5c1741b8da1425daf255b889f4c1ca3)](https://www.codacy.com/gh/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TanujaPatgar/Stepin_Movie_Ticket_Booking_System&amp;utm_campaign=Badge_Grade) 
 
 [![CI](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/main.yml/badge.svg)](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/main.yml)
+
+[![cppcheck-action](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/cppcheck.yml)
