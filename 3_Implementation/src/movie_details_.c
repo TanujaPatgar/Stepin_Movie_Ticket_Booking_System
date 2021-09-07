@@ -2,12 +2,12 @@
 #include "movie_details.c"
 
 struct movie_details person[300];
-int i;
-int count=0;
+//int i;
+//int count=0;
 void details(void)
 {
-	//int i;
-	//int count=0;
+	int i;
+	int count=0;
 	char pass[10],pas[10]="pass";
 	printf("Enter the password to see details: ");
 	scanf("%4s",pass);

@@ -1,5 +1,6 @@
 
 #include "declaration.h"
+#include "main.c"
 //#include "movie_details.c"
 int movie(void)
 {
