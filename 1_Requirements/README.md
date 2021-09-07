@@ -79,5 +79,9 @@ Low Level Requirements
 | LR04 | User can add movie id number to cancel the tickets | HR04 | Implemented |
 | LR05 | Admin can change movie ticket price using login credentials | HR05 | Implemented 
 
+<!--
+## Reference
 
+Referred some pieces of code and information from google.
 
+-->
