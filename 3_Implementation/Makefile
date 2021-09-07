@@ -22,6 +22,7 @@ SRC = main.c\
 src/movie_details.c\
 src/cmovie.c\
 src/login.c\
+src/movie.c\
 src/movie_details_.c\
 src/price_edit.c\
 src/reservation_tickets.c\
@@ -38,6 +39,7 @@ src/movie_details.c\
 src/login.c\
 src/movie_details_.c\
 src/price_edit..c\
+src/movie.c\
 src/reservation_tickets.c\
 src/ticket_cancel.c\
 src/ticket1.c\
