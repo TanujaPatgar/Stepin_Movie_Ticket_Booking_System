@@ -15,3 +15,5 @@ The main aim of the project is to develop software for online movie ticket booki
 [![cppcheck-action](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/cppcheck.yml)
 
 [![Unit testing](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/unit-test.yml/badge.svg)](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/unit-test.yml)
+
+[![C/C++ CI](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/TanujaPatgar/Stepin_Movie_Ticket_Booking_System/actions/workflows/c-cpp.yml)
