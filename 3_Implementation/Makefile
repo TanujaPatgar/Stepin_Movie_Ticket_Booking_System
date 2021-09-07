@@ -19,7 +19,7 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-movie_details.c\
+src/movie_details.c\
 src/cmovie.c\
 src/login.c\
 src/movie_details_.c\
@@ -34,6 +34,7 @@ src/ticket3.c
 
 # All test source files
 TEST_SRC = src/cmovie.c\
+src/movie_details.c\
 src/login.c\
 src/movie_details_.c\
 src/price_edit..c\
