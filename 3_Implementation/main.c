@@ -4,7 +4,7 @@
 //#include "movie_details.c"
 #include "declaration.h" 
 #include "string.h"
-int movie(void);
+
 int count=0;
 int main()
 {
