@@ -1,6 +1,7 @@
 # Name of the project
 PROJECT_NAME = Movie_Ticket_Booking
 
+# To check if the OS is windows or linux and set the executable file extension and delete command accordingly
 ifdef OS
 	RM = del /q
 	FixPath = $ (subst /.\,$1)
@@ -19,54 +20,72 @@ BUILD = build
 # All source code files
 SRC = main.c\
 movie_details.c\
--I ../src\
-#src/ticketbook.c\
+src/cmovie.c\
+src/login.c\
+src/movie_details_.c\
+src/price_edit.c\
+src/reservation_tickets.c\
+src/ticket_cancel.c\
+src/ticket1.c\
+src/ticket2.c\
+src/ticket3.c
+
 
 
 # All test source files
-TEST_SRC = _I ../src\
-#src/ticketbook.c\
-
+TEST_SRC = src/cmovie.c\
+src/login.c\
+src/movie_details_.c\
+src/price_edit..c\
+src/reservation_tickets.c\
+src/ticket_cancel.c\
+src/ticket1.c\
+src/ticket2.c\
+src/ticket3.c\
 test/tetsmovie.c\
-unity/unity.c\
+unity/unity.c
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
 
 # All include folders with header files
-INC	= inc/declaration.h\
--I ../unity\
+INC	= -Iinc\
+-Iunity
 
 #Library Inlcudes
 #INCLUDE_LIBS = 
 INCLUDE_LIBS = -lcunit
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
+#PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME)
 
 # Document files
-DOCUMENTATION_OUTPUT = documentation/html
+#DOCUMENTATION_OUTPUT = documentation/html
 
 # Default target built
-$(PROJECT_NAME):all
+#$(PROJECT_NAME):all
 
 # Run the target even if the matching name exists
-.PHONY: run clean test doc all
+#.PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	    gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).exe
+	    gcc $(SRC) $(INC) -o $(call FixPath,$(PROJECT_NAME).$(EXEC) ) -lm
 
 # Call `make run` to run the application
-run:$(PROJECT_NAME)
-	    .\$(PROJECT_OUTPUT).exe
+run:all
+	    ./$(call FixPath,$(PROJECT_NAME).$(EXEC) )
 
 # Document the code using Doxygen
-doc:
-	    make -C ./documentation
+#doc:
+#	    make -C ./documentation
 
 # Build and run the unit tests
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-		.\$(TEST_OUTPUT)
+build_test:
+	gcc $(TEST_SRC) $(INC) $(INCLUDE_LIBS) -o $(call FixPath,$(PROJECT_NAME).$(EXEC) ) -lm
+
+
+run_test:build_test
+		./$(call FixPath,$(PROJECT_NAME).$(EXEC) )
+	
 
     
 
@@ -84,13 +103,13 @@ sanitize_check:
 
 coverage:$(TEST_SRC)
 	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	.\$(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
 	gcov -a ticketbook.c	
 
 # Remove all the built files, invoke by `make clean`
 clean:
 #	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov
-	rm -rf $(BUILD) *.gcda *.gcno *.gcov
+	$(RM) $(call FixPath,$(PROJECT_NAME).$(EXEC) )
 
 # Create new build folder if not present
 $(BUILD):
